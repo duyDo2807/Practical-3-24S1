@@ -29,7 +29,7 @@ std::string Reverser::reverseString(std::string characters) {
   return reverseStringExtra(characters, 0);
 }
 
-std::string Reverser::reverseStringExtra(std::string characters, int index) {
+std::string Reverser::reverseStringExtra(std::string characters, size_t index) {
   if (index == characters.size()) {
     return "";
   }
